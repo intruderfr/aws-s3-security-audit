@@ -1,0 +1,23 @@
+# Audit output
+s3-audit-output/
+reports/
+*.csv
+*.html
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# AWS / editor
+.aws/
+.vscode/
+.idea/
+.DS_Store
